@@ -11,7 +11,7 @@ const { handleApiCall } = require('./controllers/image');
  const db = knex({
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    host : 'postgresql-corrugated-07125',
     // port : 3306,
     user : 'roger910',
     password : '',
